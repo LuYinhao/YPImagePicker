@@ -84,8 +84,8 @@ public class YPLibraryVC: UIViewController, YPPermissionCheckable {
                 return YPLibrarySelection(index: -1, assetIdentifier: asset.localIdentifier)
             }
 
-            multipleSelectionEnabled = selection.count > 1
-            v.assetViewContainer.setMultipleSelectionMode(on: multipleSelectionEnabled)
+//            multipleSelectionEnabled = selection.count > 1
+//            v.assetViewContainer.setMultipleSelectionMode(on: multipleSelectionEnabled)
             v.collectionView.reloadData()
         }
     }
