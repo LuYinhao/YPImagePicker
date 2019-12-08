@@ -39,6 +39,7 @@ public struct YPWordings {
     public var videoTitle = ypLocalized("YPImagePickerVideo")
     public var next = ypLocalized("YPImagePickerNext")
     public var filter = ypLocalized("YPImagePickerFilter")
+    public var preview = ypLocalized("YPImagePickerPreview")
     public var crop = ypLocalized("YPImagePickerCrop")
     public var warningMaxItemsLimit = ypLocalized("YPImagePickerWarningItemsLimit")
 }
