@@ -170,7 +170,10 @@ class ExampleViewController: UIViewController {
         //config.library.options = options
 
         config.library.preselectedItems = selectedItems
-        
+        ///默认不裁剪
+        config.library.isSquareByDefault = false
+        ///多选按钮状态
+        config.library.defaultMultipleSelection = true
         let picker = YPImagePicker(configuration: config)
 
         /* Change configuration directly */
