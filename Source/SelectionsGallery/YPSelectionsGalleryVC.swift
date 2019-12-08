@@ -31,7 +31,7 @@ public class YPSelectionsGalleryVC: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "预览"
         // Register collection view cell
         v.collectionView.register(YPSelectionsGalleryCell.self, forCellWithReuseIdentifier: "item")
         v.collectionView.dataSource = self

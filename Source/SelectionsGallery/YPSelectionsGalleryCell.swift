@@ -37,7 +37,7 @@ public class YPSelectionsGalleryCell: UICollectionViewCell {
         layer.backgroundColor = UIColor.clear.cgColor
         imageView.style { i in
             i.clipsToBounds = true
-            i.contentMode = .scaleAspectFill
+            i.contentMode = .scaleAspectFit
         }
         editIcon.style { v in
             v.backgroundColor = .white
